@@ -3,7 +3,7 @@ pipeline {
     kubernetes {
       label 'mypodtemplate-npm-6'
       defaultContainer 'node-container'
-      yamlFile 'KubernetesPod.yaml'
+      yaml 'KubernetesPod.yaml'
     }
   }
   stages {
